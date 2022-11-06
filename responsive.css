@@ -1,0 +1,106 @@
+@media (Max-width:700px) {
+    *{
+        user-select: none;
+    }
+    #main{
+        width: 100%;
+        height: 420%;
+        background-color: rgb(247, 192, 192);
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        flex-direction: column;
+        gap: 30px;
+    }    
+    #main h1{
+        font-family:bilagike;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 8vw;
+        padding-top: 30px;
+    }
+    #main h1 span{
+        display: inline-block;
+        font-family: yank;
+        font-size: 6vw;
+        color: springgreen;
+        opacity: 0.6;
+    }
+    #main #box{
+        width: 100%;
+        height: 300px;
+        /* background-color: greenyellow; */
+        display: flex;
+        justify-content: center;
+        /* flex-wrap: wrap; */
+        gap: 30px;
+        
+    }
+    #main #box .box{
+        width: 80%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:20px;
+        border-radius: 20px;
+    }
+    #main #box .box img{
+        width: 95%;
+        height: 70%;
+        /* background-color: tomato; */
+        padding-top: 5px;
+        border-radius: 20px ;
+       
+    }
+    #main #box .box a{
+        width: max-content;
+        /* background-color: red; */
+        border: 1px solid gray;
+        padding: 10px 30px;
+        font-family:bilagike;
+        font-size: 5vw;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 99;
+        box-shadow: 8px 10px 10px black;
+    
+    }
+
+    footer{
+        width: 100%;
+        height: 15vh;
+        background-color:rgb(247, 192, 192) ;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 9px;
+        border-top: 1px solid gray;
+        
+    }
+    footer p{
+        text-align: center;
+        font-family: gilroy;
+        line-height: 1;
+    }
+    footer p span{
+        display: inline-block;
+        text-transform: uppercase;
+        font-family: bilagike;
+        letter-spacing: 2px;
+        font-size: 7vw;
+        color: springgreen;
+        opacity: .6;
+        font-weight: bold;
+    }
+
+}
