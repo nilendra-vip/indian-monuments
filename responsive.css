@@ -4,7 +4,7 @@
     }
     #main{
         width: 100%;
-        height: 420%;
+        height: 380%;
         background-color: rgb(247, 192, 192);
         display: flex;
         align-items: center;
@@ -16,13 +16,13 @@
         font-family:bilagike;
         text-transform: uppercase;
         font-weight: 600;
-        font-size: 8vw;
+        font-size: 6.5vw;
         padding-top: 30px;
     }
     #main h1 span{
         display: inline-block;
         font-family: yank;
-        font-size: 6vw;
+        font-size: 5.5vw;
         color: springgreen;
         opacity: 0.6;
     }
